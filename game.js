@@ -1,0 +1,5 @@
+class Ship {
+  hit() {}
+
+  isSunk() {}
+}
