@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Battleship game</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./UI/styles.css" />
   </head>
   <body>
-    <script src="game.js"></script>
+    <div class="mainContainer">
+      <div class="gameBoards">
+        <div class="board">
+          <h1>Computer</h1>
+          <div id="computerboard" class="singleBoard"></div>
+        </div>
+
+        <div class="board">
+          <h1>Player</h1>
+          <div id="playerboard" class="singleBoard"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./game/index.js"></script>
   </body>
 </html>
